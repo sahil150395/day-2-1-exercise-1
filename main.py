@@ -4,10 +4,12 @@ two_digit_number = input("Type a two digit number: ")
 
 ####################################
 #Write your code below this line 👇
+print(type(two_digit_number))
 first_digit = int(two_digit_number[0])
+print(type(first_digit))
 second_digit = int(two_digit_number[1])
-
-print(first_digit + second_digit)
+result = first_digit + second_digit
+print(result)
 
 
 
